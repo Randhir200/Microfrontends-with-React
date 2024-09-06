@@ -8,4 +8,4 @@ for(let i=0; i<productSize; i++){
  products += `<div>${name}</div>`;
 }
 
-document.querySelector('body').innerHTML = products;
+document.querySelector('#products').innerHTML = products;
