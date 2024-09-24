@@ -1,2 +1,7 @@
 import "products/ProductsIndex";
-document.getElementById('container').innerHTML = '<h1>Container</h1>';
+const ele = `<h1>container</h1>`;
+
+console.log(ele);
+console.log('hello');
+
+document.querySelector("#container").innerHTML = ele;
