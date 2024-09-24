@@ -1,7 +1,7 @@
 import faker from "faker";
 
 let products = "";
-let productSize = 50;
+let productSize = 5;
 
 for(let i=0; i<productSize; i++){
     const name = faker.commerce.productName();
