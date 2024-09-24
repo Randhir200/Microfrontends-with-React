@@ -1,4 +1,5 @@
 import "products/ProductsIndex";
+import "cart/CartShow";
 const ele = `<h1>container</h1>`;
 
 console.log(ele);
